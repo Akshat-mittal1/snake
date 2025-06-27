@@ -9,7 +9,7 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: Platane/snk@master
+      - uses: Platane/snk@v3
         with:
           github_user_name: akshat-mittal1
           outputs: |
