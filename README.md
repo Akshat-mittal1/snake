@@ -1,45 +1,57 @@
-# 🐍 GitHub Contribution Snake Animation
+# 🐍 GitHub Contribution Snake
 
-This repository is used to automatically generate and host a dynamic contribution graph animation based on my GitHub activity. The animation is generated using GitHub Actions and is displayed in the README of my main profile repository: [Akshat-mittal1](https://github.com/Akshat-mittal1).
+This repository hosts an animated representation of my GitHub contributions using the awesome [`Platane/snk`](https://github.com/Platane/snk) GitHub Action.
 
-> 🎯 **Purpose**: Visualize my GitHub contributions in a fun and interactive way using a snake-like animation.
+> The snake animation is updated daily via GitHub Actions and embedded in my [GitHub profile README](https://github.com/Akshat-mittal1/Akshat-mittal1).
 
 ---
 
-## 📂 Hosted Outputs
+## 📦 Output Files (auto-generated)
 
-The following animation files are automatically generated and committed to the `output` branch:
+These files are pushed to the `output` branch:
 
 - `github-contribution-grid-snake.svg`
-- `github-contribution-grid-snake-dark.svg?palette=github-dark`
-- `github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9`
+- `github-contribution-grid-snake-dark.svg`
+- `github-contribution-grid-snake.gif`
 
-These files are then embedded directly into my GitHub profile README via:
+They are generated based on my GitHub activity and hosted using GitHub Pages.
 
-```markdown
-<img src="https://raw.githubusercontent.com/Akshat-mittal1/snake/output/github-contribution-grid-snake.svg" alt="GitHub Snake Animation" />
-⚙️ How It Works
-This repository uses Platane's Snake GitHub Action to generate the contribution graph animation daily:
+---
 
-GitHub Actions fetch contribution data using your username
+## 📌 Live Preview
 
-The snake "crawls" over the contribution grid
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Akshat-mittal1/snake/output/github-contribution-grid-snake.svg" alt="GitHub Snake Contribution Animation" />
+</p>
 
-Output files are committed to the output branch
+---
 
-The SVG/GIF is then used in the main profile's README.md
+## ⚙️ Powered By
 
-📈 Live Result
-See it in action on my GitHub profile:
+- 🐍 [`Platane/snk`](https://github.com/Platane/snk)
+- 🔁 GitHub Actions
+- 📊 My GitHub contribution data
 
-🔗 github.com/Akshat-mittal1
+---
 
-<p align="center"> <img src="https://raw.githubusercontent.com/Akshat-mittal1/snake/output/github-contribution-grid-snake.svg" width="100%" /> </p>
-🙌 Credits
-This setup is based on the amazing open-source project by:
+## 💡 How It Works
 
-GitHub Action: Platane/snk
+1. A GitHub Action fetches my contributions.
+2. Snake animation is generated using `snk`.
+3. Output files are committed to the `output` branch.
+4. Animation is embedded in my profile via a hosted URL.
 
-Maintained by: @Platane
+---
 
-⭐ If you like the concept, consider starring Platane's repository!
+## 🧠 Author
+
+> Maintained by **Akshat Mittal**  
+> 📬 [akshatmittal798@gmail.com](mailto:akshatmittal798@gmail.com)
+
+---
+
+## 🙌 Acknowledgements
+
+Huge thanks to [@Platane](https://github.com/Platane) for creating the Snake GitHub Contribution Graph generator.
+
+---
